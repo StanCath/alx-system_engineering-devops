@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "directory" >> /tmp/my_first_directory
+touch /tmp/my_first_directory   cat > /tmp/my_first_directory   directory 
