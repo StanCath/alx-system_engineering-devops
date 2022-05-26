@@ -1,3 +1,2 @@
 #!/bin/bash
 sudo chmod -R 755 path/to/directory
-
