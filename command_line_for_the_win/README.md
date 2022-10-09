@@ -1,1 +1,1 @@
-command linw for the win
+command line for the win
