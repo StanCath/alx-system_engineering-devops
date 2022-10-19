@@ -1,9 +1,2 @@
 #!/usr/bin/env ruby
-# Textme
-puts ARGV[0]
-       .scan(/(?<=from:|to:|flags:).*?(?=\])/)
-       .join(',')#!/usr/bin/env ruby
-# Textme
-puts ARGV[0]
-       .scan(/(?<=from:|to:|flags:).*?(?=\])/)
-       .join(',')
+puts ARGV[0].scan(/\[from:(.*?)\] \[to:(.*?)\] \[flags:(.*?)\]/).join(",")
